@@ -1,0 +1,12 @@
+.ScriptList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 18px;
+    margin-left: 46px;
+    margin-right: 257px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    max-width: 900px;
+}

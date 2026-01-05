@@ -1,0 +1,131 @@
+.BotSettings{
+    margin-left: 40px;
+    width: 100%;
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-top: 29px;
+    margin-bottom: 73px;
+}
+
+.Header p{
+    color: #252525;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Information {
+    display: flex;
+    align-items: flex-start;
+}
+
+.Information>img{
+    margin-right: 26px;
+}
+
+.Cosmetic{
+    margin-right: 62px;
+    display: flex;
+    flex-direction: column ;
+    gap: 29px;
+}
+
+.Cosmetic form{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Cosmetic form>div{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    position: relative;
+}
+
+.Cosmetic form>div>label{
+    font-weight: 500;
+    font-size: 16px;
+    color: #252525;
+}
+
+.Cosmetic form>div>input{
+    height: 38px;
+    min-width: 404px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    padding-left: 18px;
+}
+
+.Cosmetic form>div>img{
+    position: absolute;
+    right: 5px;
+    top: 27px;
+}
+
+.Activation{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Activation p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #252525;
+}
+
+.Activation div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Settings{
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+}
+
+.Settings>div:not(.World){
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Settings>div:not(.World)>p:not(.Token){
+    font-size: 16px;
+    font-weight: 500;
+    color: #252525;
+}
+
+.Token{
+    padding: 11px 26px 11px 12px;
+    background-color: #FFFFFF;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.World{
+    display: flex;
+    gap: 32px;
+}
+
+.World>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.World select{
+    width: 186px;
+    height: 38px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    padding-left: 18px;
+}

@@ -1,0 +1,182 @@
+.Dashboard {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin-top: 29px;
+}
+
+.DashboardNavPanel {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-left: 45px;
+}
+
+.DashboardNavPanel button {
+  color: #252525;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.DashboardNavPanel li:first-of-type button {
+  width: 150px;
+  text-align: center;
+}
+
+.DashboardNavPanel li:last-of-type button {
+  width: 100px;
+  text-align: center;
+}
+
+.Underline {
+  display: block;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.Active {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #252525;
+  border-radius: 2px;
+  pointer-events: none;
+  cursor:default;
+}
+
+.InputSystem {
+  margin-top: 18px;
+  display: flex;
+  gap: 23px;
+  margin-left: 51px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.FindScript {
+  display: flex;
+}
+
+.FindScript input {
+  outline: none;
+  border: none;
+  height: 38px;
+  width: 526px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  box-shadow: 0px 0px 6px 0 #e3e3e3;
+  padding-left: 39px;
+}
+
+.FindScript input:focus{
+  border: 1px solid #A2A2A2;
+}
+
+.loop {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 38px;
+  box-shadow: 0px 0px 6px 0 #e3e3e3;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.filterActive{
+  background-color: #A0A0A0; 
+}
+
+.filterHidden{
+  background-color: #252525;
+}
+
+.createScript {
+  width: 290px;
+  background-color: #252525;
+  box-shadow: 0 0 6px 0 #e3e3e3;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.createScript img {
+  height: 14px;
+}
+
+.FilterMenu {
+  margin-left: 51px;
+  margin-bottom: 18px;
+  display: flex;
+  max-width: 582px;
+  gap: 9px;
+  flex-direction: column;
+}
+
+.FilterMenu div {
+  display: flex;
+}
+
+.FilterMenu div:first-of-type {
+  justify-content: space-between;
+}
+
+.FilterMenu div:last-of-type {
+  justify-content: space-between;
+}
+
+.FilterMenu div:last-of-type button{
+  width: 165px;
+}
+
+
+.FilterMenu div button{
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 0 6px 0 #e3e3e3;
+  height: 24px;
+}
+
+.FilterMenu div:first-of-type button:not(button:last-of-type) {
+  width: 119px;
+}
+
+.FilterMenu div:first-of-type button:last-of-type{
+  width: 159px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.ActiveFilter{
+  background-color: #252525 !important;
+  color: #ffffff;
+}
+
+/* Анимации */
+
+.createScript:hover{
+  transform: scale(1.05) translateY(-5px);
+  opacity: 0.8;
+}
+
+.createScript:active{
+  opacity: 0.4;
+}
+
+.filter:hover{
+  opacity: 0.8;
+}

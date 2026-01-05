@@ -1,0 +1,83 @@
+.Bots {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.Underline {
+  display: block;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.BotsNavPanel {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-left: 45px;
+  margin-bottom: 12px;
+  margin-top: 29px;
+}
+
+.BotsNavPanel p {
+  color: #252525;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.AddBots {
+  height: 90px;
+  max-height: 90px;
+  background-color: #ffffff;
+  box-shadow: 0 0 6px 0 #e3e3e3;
+  display: flex;
+  align-items: center;
+}
+
+.AddBots p {
+  margin: 0;
+  padding: 0;
+  margin-left: 60px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #252525;
+}
+
+.BotsSearch {
+  display: flex;
+  margin-left: 45px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  justify-content: space-between;
+  width: 900px;
+  gap: 23px;
+  position: relative;
+}
+
+.BotsSearch input{
+  width: 100%;
+  max-width: 582px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 6px 0 #e3e3e3;
+  padding-left: 39px;
+}
+
+/* Анимации */
+
+.Icons {
+  transition: 0.3s all ease;
+}
+
+.Icons:hover {
+  transform: scale(1.15);
+  opacity: 0.6;
+}
+
+.Icons:active {
+  opacity: 0.4;
+}

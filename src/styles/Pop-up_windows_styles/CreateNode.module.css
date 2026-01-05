@@ -1,0 +1,86 @@
+.CreateNode{
+    position: absolute;
+    max-width: 60%;
+    width: 60%;
+    left: 20%;
+    top: 25%;
+    z-index: 21;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 #e3e3e3;
+}
+
+.CreateNode>p{
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    color: #252525;
+    border-bottom: solid 1px #DCDCDC;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    text-align: center;
+}
+
+.CreateNode ul{
+    list-style: none;
+    margin: 23px 33px 0px 33px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.CreateNode>ul>li{
+    display: flex;
+    padding: 13px;
+    padding-bottom: 9px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #DCDCDC;
+    padding-left: 14px;
+    padding-right: 20px;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.CreateNode>ul>li:hover{
+    background-color:#DCDCDC;
+    transform: scale(1.05) translateY(-5px);
+}
+
+.CreateNode>ul>li:active{
+    opacity: 0.6;
+}
+
+.NodeInfo{
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.NodeInfo>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.NodeInfo div>p:first-of-type{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.NodeInfo div>p:last-of-type{
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.CreateNode .Advice{
+    color:#252525;
+    opacity: 0.5;
+    font-weight: 400;
+    text-align: start;
+    font-size: 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    max-width: 470px;
+}

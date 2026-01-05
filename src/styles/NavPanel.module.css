@@ -1,0 +1,58 @@
+.NavPanel{
+  background-color: #ffffff;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  box-shadow: 0px 0px 6px 0 #E3E3E3;
+  height: 100vh;
+  padding-top: 22px;
+}
+
+.NavPanel div{
+  margin-left: 21px;
+  margin-bottom: 50px;
+}
+
+.buttonsList{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin-right: 11px;
+  margin-left: 18px;
+}
+
+.button{
+  font-size: 18px;
+  width: 208px;
+  font-weight: 600;
+  color: #454545;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.activeButton{
+  color: #000000;
+  background-color: #F3F3F3;
+  background-size: 220px 43px;
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+.button:hover{
+  transform: scale(1.1) translateX(10px);
+  opacity: 0.8;
+}
+
+.button:active{
+  opacity: 0.4;
+}
